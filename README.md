@@ -1,7 +1,7 @@
-# [Bullionhouse.digital](http://bullionhouse.digital)
-
-Domain registered with namecheap.com, [Nickolay's](https://t.me/nbabenko) account
+# [nbh-digital.com](http://nbh-digital.com)
 
 Currently hosted on digitalocean, [Nickolay's](https://t.me/nbabenko) account
 
 Bootstrapped and can be easily edited with [mobirise.com](http://mobirise.com)
+
+Ask password from [Nickolay](https://t.me/nbabenko)
