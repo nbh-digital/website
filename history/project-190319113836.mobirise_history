@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NBH Digital",
+    "name": "My Site",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -56,8 +56,8 @@
     "uniqCompNum": 52,
     "versionPublish": "4.9.6",
     "screenshot": "screenshot.png",
-    "favicon": "",
-    "noImageResize": ""
+    "publishType": "local",
+    "publishPath": "file:///Users/Adnan/work/nbh-digital/www_nbh-digital_com"
   },
   "pages": {
     "index.html": {
