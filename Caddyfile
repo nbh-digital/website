@@ -1,0 +1,13 @@
+:2021 {
+    bind 0.0.0.0
+    gzip
+    root .
+    
+    git {
+        repo https://github.com/nbh-digital/www_nbh-digital_com.git
+        branch production
+        hook /webhook "zU3787$aJEb6"
+        key ~/.ssh/id_rsa
+        path . 
+    }
+}
