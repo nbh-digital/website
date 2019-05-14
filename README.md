@@ -1,6 +1,6 @@
 # [nbh-digital.com](http://nbh-digital.com)
 
-Currently hosted on digitalocean, [Nickolay's](https://t.me/nbabenko) account
+Currently hosted on TF GRID, mazraa farm
 
 Bootstrapped and can be easily edited with [mobirise.com](http://mobirise.com)
 
