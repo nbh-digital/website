@@ -1,4 +1,4 @@
-:2038 {
+:80 {
     bind 0.0.0.0
     gzip
     root /opt/www_nbh-digital_com/
@@ -8,7 +8,6 @@
         branch master
         hook /webhook "test9278"
         hook_type generic
-        key /opt/www_nbh-digital_com/id_rsa
+        key /root/.ssh/id_rsa
         path /opt/www_nbh-digital_com/
     }
-}
