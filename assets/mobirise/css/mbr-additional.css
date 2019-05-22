@@ -575,6 +575,9 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
+.scrollToTop_wraper {
+  display: none;
+}
 #scrollToTop a i:before {
   content: '';
   position: absolute;
@@ -1300,31 +1303,11 @@ body {
   background-color: #aa8947;
   color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow,
-.jq-number__spin.minus:after,
-.jq-number__spin.plus:after {
-  transition: 0.4s;
-  border-top-color: currentColor;
-  border-bottom-color: currentColor;
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow,
-.jq-number__spin.minus:hover:after,
-.jq-number__spin.plus:hover:after {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
   border-top-color: #aa8947;
-  border-bottom-color: #aa8947;
-}
-.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
-.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  color: #ffffff !important;
-  background-color: #aa8947 !important;
-  box-shadow: none!important;
-}
-.xdsoft_datetimepicker .xdsoft_calendar td:hover,
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #ffffff !important;
-  background: #ff3366 !important;
-  box-shadow: none !important;
 }
 .cid-riDfjU63oR .navbar {
   background: #ffffff;
@@ -2191,10 +2174,22 @@ body {
 .cid-rmMeJeMc00 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/shutterstock-317851145-2000x1125.jpg");
+  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
 }
-.cid-rmMeJeMc00 .media-container-row .mbr-text {
+.cid-rr6Uxd47ps {
+  padding-top: 135px;
+  padding-bottom: 45px;
+  background-image: url("../../../assets/images/background4.jpg");
+}
+.cid-rr6Uxd47ps P {
+  color: #767676;
+}
+.cid-rr6Uxd47ps .mbr-text,
+.cid-rr6Uxd47ps .mbr-section-btn {
   color: #ffffff;
+}
+.cid-rr6Uxd47ps H1 {
+  color: #d1b471;
 }
 .cid-riDfjU63oR .navbar {
   background: #ffffff;
@@ -2613,7 +2608,7 @@ body {
   flex-wrap: wrap;
 }
 .cid-riDl0HUxz3 .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-riDl0HUxz3 .mbr-author-desc {
   display: block;
@@ -2674,7 +2669,7 @@ body {
   flex-wrap: wrap;
 }
 .cid-riDDTTgngS .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-riDDTTgngS .mbr-author-desc {
   display: block;
@@ -2732,7 +2727,7 @@ body {
   flex-wrap: wrap;
 }
 .cid-riDl1a5rIm .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-riDl1a5rIm .mbr-author-desc {
   display: block;
@@ -2790,7 +2785,7 @@ body {
   flex-wrap: wrap;
 }
 .cid-riDE7fj0YX .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-riDE7fj0YX .mbr-author-desc {
   display: block;
@@ -2848,7 +2843,7 @@ body {
   flex-wrap: wrap;
 }
 .cid-riHbP5PVdI .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-riHbP5PVdI .mbr-author-desc {
   display: block;
@@ -2906,7 +2901,7 @@ body {
   flex-wrap: wrap;
 }
 .cid-riHbQ0OHGO .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-riHbQ0OHGO .mbr-author-desc {
   display: block;
@@ -2964,7 +2959,7 @@ body {
   flex-wrap: wrap;
 }
 .cid-riHbQNHrIX .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-riHbQNHrIX .mbr-author-desc {
   display: block;
@@ -3011,10 +3006,10 @@ body {
 .cid-riEL7FrPxF {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/shutterstock-317851145-2000x1125.jpg");
+  background-image: url("../../../assets/images/6-1920x1200.jpg");
 }
 .cid-riEL7FrPxF .media-container-row .mbr-text {
-  color: #ffffff;
+  color: #4f4943;
 }
 .cid-riDfjU63oR .navbar {
   background: #ffffff;
@@ -3426,23 +3421,16 @@ body {
     text-align: center;
   }
 }
-.cid-riEmvDfkxk H1 {
-  color: #d1b471;
-}
-.cid-riEmvDfkxk .mbr-text,
-.cid-riEmvDfkxk .mbr-section-btn {
-  color: #ffffff;
-}
 .cid-riEmpTSHdw {
   padding-top: 105px;
   padding-bottom: 120px;
   background-color: #f9f9f9;
 }
 .cid-riEmpTSHdw .mbr-section-text {
-  color: #4b4b4b;
+  color: #767676;
 }
 .cid-riEmpTSHdw .mbr-section-subtitle {
-  color: #4b4b4b;
+  color: #767676;
 }
 .cid-riEmpTSHdw .tabcont {
   -webkit-justify-content: center;
@@ -3492,19 +3480,13 @@ body {
 .cid-riEmpTSHdw .nav-tabs .nav-link.active:hover {
   border: 2px solid #aa8947;
 }
-.cid-riEmpTSHdw H4 {
-  color: #4b4b4b;
-}
-.cid-riEmpTSHdw H2 {
-  color: #aa8947;
-}
 .cid-riELk9uoQ3 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/shutterstock-317851145-2000x1125.jpg");
+  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
 }
 .cid-riELk9uoQ3 .media-container-row .mbr-text {
-  color: #ffffff;
+  color: #4f4943;
 }
 .cid-riDfjU63oR .navbar {
   background: #ffffff;
@@ -3905,7 +3887,6 @@ body {
 }
 .cid-riEq7nTBNB H1 {
   text-align: center;
-  color: #d1b471;
 }
 .cid-riEqc3W7gX {
   padding-top: 90px;
@@ -3982,22 +3963,13 @@ body {
     padding-bottom: 0!important;
   }
 }
-.cid-riEqc3W7gX .mbr-section-title {
-  color: #aa8947;
-}
-.cid-riEqc3W7gX .mbr-crt-title {
-  color: #474747;
-}
-.cid-riEqc3W7gX .mbr-section-text {
-  color: #474747;
-}
 .cid-riELmOsGdG {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/shutterstock-317851145-2000x1125.jpg");
+  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
 }
 .cid-riELmOsGdG .media-container-row .mbr-text {
-  color: #ffffff;
+  color: #4f4943;
 }
 .cid-riDfjU63oR .navbar {
   background: #ffffff;
@@ -4429,7 +4401,7 @@ body {
   background-color: #ffffff;
 }
 .cid-riEbw7eecq .mbr-section-subtitle {
-  color: #4b4b4b;
+  color: #767676;
   font-weight: 300;
 }
 .cid-riEbw7eecq .mbr-content-text {
@@ -4501,20 +4473,11 @@ body {
   -webkit-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
-.cid-riEbw7eecq .mbr-section-title {
-  color: #aa8947;
-}
-.cid-riEbw7eecq H4 {
-  color: #474747;
-}
-.cid-riEbw7eecq .count {
-  color: #aa8947;
-}
 .cid-riELppd0xX {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/shutterstock-317851145-2000x1125.jpg");
+  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
 }
 .cid-riELppd0xX .media-container-row .mbr-text {
-  color: #ffffff;
+  color: #4f4943;
 }
